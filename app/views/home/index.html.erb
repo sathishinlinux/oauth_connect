@@ -1,0 +1,14 @@
+Hello World!
+<% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
+<%if current_user %>
+	
+	Welcome <%= current_user.name %>!,
+	<%= link_to "Sigout", signout_path %>
+	
+<% else %>
+
+	<%= link_to "Sign in with Twitter" , "/auth/twitter" %>
+<% end %>	
+	 

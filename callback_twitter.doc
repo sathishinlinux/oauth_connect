@@ -1,0 +1,216 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: twitter
+uid: '260365186'
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  nickname: sathishinlinux
+  name: sathish
+  location: chennai
+  image: http://a0.twimg.com/profile_images/1871904850/182047_147159845345628_100001548409455_278624_5898128_n_normal.jpg
+  description: 
+  urls: !ruby/hash:OmniAuth::AuthHash
+    Website: http://t.co/rplQYFVWHD
+    Twitter: https://twitter.com/sathishinlinux
+credentials: !ruby/hash:OmniAuth::AuthHash
+  token: 260365186-66FIfVAvnwnV0jUT8kFdlZqGlkjwVElGLpwWT1j1
+  secret: FNQWljuZovVyoYZDAnCUCqwqWEFhF6nplyT9rDO7aeY
+extra: !ruby/hash:OmniAuth::AuthHash
+  access_token: !ruby/object:OAuth::AccessToken
+    token: 260365186-66FIfVAvnwnV0jUT8kFdlZqGlkjwVElGLpwWT1j1
+    secret: FNQWljuZovVyoYZDAnCUCqwqWEFhF6nplyT9rDO7aeY
+    consumer: !ruby/object:OAuth::Consumer
+      key: Ld88ypSPa2wk5vPWrpRg
+      secret: HJGYGkB7WUrketSnnh3wKj3cgOHFf4xHS91vMnEizys
+      options:
+        :signature_method: HMAC-SHA1
+        :request_token_path: /oauth/request_token
+        :authorize_path: /oauth/authenticate
+        :access_token_path: /oauth/access_token
+        :proxy: 
+        :scheme: :header
+        :http_method: :post
+        :oauth_version: '1.0'
+        :site: https://api.twitter.com
+      http: !ruby/object:Net::HTTP
+        address: api.twitter.com
+        port: 443
+        curr_http_version: '1.1'
+        no_keepalive_server: false
+        close_on_empty_response: false
+        socket: 
+        started: false
+        open_timeout: 30
+        read_timeout: 30
+        continue_timeout: 
+        debug_output: 
+        use_ssl: true
+        ssl_context: !ruby/object:OpenSSL::SSL::SSLContext
+          cert: 
+          key: 
+          client_ca: 
+          ca_file: 
+          ca_path: 
+          timeout: 
+          verify_mode: 0
+          verify_depth: 
+          verify_callback: 
+          options: -2147479553
+          cert_store: 
+          extra_chain_cert: 
+          client_cert_cb: 
+          tmp_dh_callback: 
+          session_id_context: 
+          session_get_cb: 
+          session_new_cb: 
+          session_remove_cb: 
+          servername_cb: 
+        enable_post_connection_check: true
+        compression: 
+        sspi_enabled: false
+        ssl_version: 
+        key: 
+        cert: 
+        ca_file: 
+        ca_path: 
+        cert_store: 
+        ciphers: 
+        verify_mode: 0
+        verify_callback: 
+        verify_depth: 
+        ssl_timeout: 
+      http_method: :post
+      uri: !ruby/object:URI::HTTPS
+        scheme: https
+        user: 
+        password: 
+        host: api.twitter.com
+        port: 443
+        path: ''
+        query: 
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+    params:
+      :oauth_token: 260365186-66FIfVAvnwnV0jUT8kFdlZqGlkjwVElGLpwWT1j1
+      oauth_token: 260365186-66FIfVAvnwnV0jUT8kFdlZqGlkjwVElGLpwWT1j1
+      :oauth_token_secret: FNQWljuZovVyoYZDAnCUCqwqWEFhF6nplyT9rDO7aeY
+      oauth_token_secret: FNQWljuZovVyoYZDAnCUCqwqWEFhF6nplyT9rDO7aeY
+      :user_id: '260365186'
+      user_id: '260365186'
+      :screen_name: sathishinlinux
+      screen_name: sathishinlinux
+    response: !ruby/object:Net::HTTPOK
+      http_version: '1.1'
+      code: '200'
+      message: OK
+      header:
+        cache-control:
+        - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+        content-length:
+        - '1502'
+        content-type:
+        - application/json; charset=utf-8
+        date:
+        - Mon, 17 Jun 2013 11:56:18 GMT
+        etag:
+        - ! '"4fee1577106dfbd3b8a7f1b5d1fd5f95"'
+        expires:
+        - Tue, 31 Mar 1981 05:00:00 GMT
+        last-modified:
+        - Mon, 17 Jun 2013 11:56:18 GMT
+        pragma:
+        - no-cache
+        server:
+        - tfe
+        set-cookie:
+        - dnt=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+        - lang=en; path=/
+        - lang=en; path=/
+        - lang=en; path=/
+        - twid=u%3D260365186%7Cj3AOn9m21st6WJmhczSqDr4g5%2Fo%3D; domain=.twitter.com;
+          path=/; secure
+        - _twitter_sess=BAh7CDoMY3NyZl9pZCIlY2I4YmQ3YWYyZjQ4YmRhYjlmZjE3NDBmN2E1Yzg4%250AYTI6D2NyZWF0ZWRfYXRsKwhnJ%252F5RPwE6B2lkIiUyZDkwYzM3NDlkOGVmZWY2%250AMGRmNzVhMzdmOGFmMzBhZg%253D%253D--df3281e6229be37b98eafff583152defc1bf328e;
+          domain=.twitter.com; path=/; HttpOnly
+        - guest_id=v1%3A137147017812836147; Domain=.twitter.com; Path=/; Expires=Wed,
+          17-Jun-2015 11:56:18 UTC
+        status:
+        - 200 OK
+        strict-transport-security:
+        - max-age=631138519
+        vary:
+        - Accept-Encoding
+        x-access-level:
+        - read
+        x-frame-options:
+        - SAMEORIGIN
+        x-mid:
+        - ea10995b6982ceaa3a810786b6c50e0614b3f5b9
+        x-rate-limit-limit:
+        - '15'
+        x-rate-limit-remaining:
+        - '13'
+        x-rate-limit-reset:
+        - '1371470898'
+        x-runtime:
+        - '0.03213'
+        x-transaction:
+        - 2c7093ff5ef0975b
+        x-transaction-mask:
+        - a6183ffa5f8ca943ff1b53b5644ef11421e83fa6
+        connection:
+        - close
+      body: ! '{"location":"chennai","profile_sidebar_fill_color":"DDEEF6","verified":false,"name":"sathish","listed_count":0,"time_zone":null,"follow_request_sent":false,"lang":"en","notifications":false,"id":260365186,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","geo_enabled":false,"default_profile_image":false,"profile_link_color":"0084B4","following":false,"utc_offset":null,"favourites_count":6,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1871904850\/182047_147159845345628_100001548409455_278624_5898128_n_normal.jpg","created_at":"Thu
+        Mar 03 19:00:38 +0000 2011","id_str":"260365186","profile_use_background_image":true,"profile_text_color":"333333","protected":false,"description":null,"followers_count":5,"profile_background_image_url_https":"https:\/\/twimg0-a.akamaihd.net\/images\/themes\/theme1\/bg.png","screen_name":"sathishinlinux","statuses_count":1,"profile_sidebar_border_color":"C0DEED","contributors_enabled":false,"default_profile":true,"entities":{"url":{"urls":[{"display_url":"vsatglobalsolutions.com","expanded_url":"http:\/\/vsatglobalsolutions.com","url":"http:\/\/t.co\/rplQYFVWHD","indices":[0,22]}]},"description":{"urls":[]}},"friends_count":78,"url":"http:\/\/t.co\/rplQYFVWHD","profile_image_url_https":"https:\/\/twimg0-a.akamaihd.net\/profile_images\/1871904850\/182047_147159845345628_100001548409455_278624_5898128_n_normal.jpg","is_translator":false,"profile_background_tile":false}'
+      read: true
+      socket: 
+      body_exist: true
+  raw_info: !ruby/hash:OmniAuth::AuthHash
+    location: chennai
+    profile_sidebar_fill_color: DDEEF6
+    verified: false
+    name: sathish
+    listed_count: 0
+    time_zone: 
+    follow_request_sent: false
+    lang: en
+    notifications: false
+    id: 260365186
+    profile_background_color: C0DEED
+    profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+    geo_enabled: false
+    default_profile_image: false
+    profile_link_color: 0084B4
+    following: false
+    utc_offset: 
+    favourites_count: 6
+    profile_image_url: http://a0.twimg.com/profile_images/1871904850/182047_147159845345628_100001548409455_278624_5898128_n_normal.jpg
+    created_at: Thu Mar 03 19:00:38 +0000 2011
+    id_str: '260365186'
+    profile_use_background_image: true
+    profile_text_color: '333333'
+    protected: false
+    description: 
+    followers_count: 5
+    profile_background_image_url_https: https://twimg0-a.akamaihd.net/images/themes/theme1/bg.png
+    screen_name: sathishinlinux
+    statuses_count: 1
+    profile_sidebar_border_color: C0DEED
+    contributors_enabled: false
+    default_profile: true
+    entities: !ruby/hash:OmniAuth::AuthHash
+      url: !ruby/hash:OmniAuth::AuthHash
+        urls:
+        - !ruby/hash:OmniAuth::AuthHash
+          display_url: vsatglobalsolutions.com
+          expanded_url: http://vsatglobalsolutions.com
+          url: http://t.co/rplQYFVWHD
+          indices:
+          - 0
+          - 22
+      description: !ruby/hash:OmniAuth::AuthHash
+        urls: []
+    friends_count: 78
+    url: http://t.co/rplQYFVWHD
+    profile_image_url_https: https://twimg0-a.akamaihd.net/profile_images/1871904850/182047_147159845345628_100001548409455_278624_5898128_n_normal.jpg
+    is_translator: false
+    profile_background_tile: false
